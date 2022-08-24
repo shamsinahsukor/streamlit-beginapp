@@ -21,6 +21,12 @@ if show:
     'Churn Status': [0, 0, 0, 1]
 }))
 
+st.header("About Diabetes")
+from PIL import Image
+image = Image.open('img-what-is-diabetes.jpg')
+
+st.image(image, caption='What is diabetes Type')
+    
 option = st.sidebar.selectbox(
     'Select a mini project',
      ['line chart','map','T n C'])
@@ -48,14 +54,7 @@ else:
         'Churn Status': [0, 0, 0, 1]
         }))
         
-        
-st.header("About Diabetes")
-from PIL import Image
-image = Image.open('img-what-is-diabetes.jpg')
-
-st.image(image, caption='What is diabetes Type')
-
- 
+  
 st.header("Diabetes Types")
 from PIL import Image
 image = Image.open('diabetes-type.jpg')

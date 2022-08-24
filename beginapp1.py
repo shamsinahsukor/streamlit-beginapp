@@ -15,6 +15,11 @@ image = Image.open('img-what-is-diabetes.jpg')
 
 st.image(image, caption='What is diabetes Type')
 
+df = pd.DataFrame(
+    np.random.randn(10, 5),
+    columns=('col %d' % i for i in range(5)))
+
+st.table(df)
 
 st.header("Diabetes Types")
 from PIL import Image

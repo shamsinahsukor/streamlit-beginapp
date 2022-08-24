@@ -8,3 +8,5 @@ st.write(pd.DataFrame({
     'Intplan': ['yes', 'yes', 'yes', 'no'],
     'Churn Status': [0, 0, 0, 1]
 }))
+
+st.video(data, format="https://www.youtube.com/watch?v=wZAjVQWbMlE", start_time=0)

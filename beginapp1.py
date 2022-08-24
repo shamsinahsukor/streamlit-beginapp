@@ -10,8 +10,13 @@ st.write(pd.DataFrame({
 }))
 
 st.header("About Diabetes")
+from PIL import Image
+image = Image.open('img-what-is-diabetes.jpg')
+
+st.image(image, caption='What is diabetes Type')
 
 
+st.header("Diabetes Types")
 from PIL import Image
 image = Image.open('diabetes-type.jpg')
 

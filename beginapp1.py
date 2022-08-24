@@ -34,7 +34,7 @@ if option=='line chart':
 
 elif option=='map':
     map_data = pd.DataFrame(
-    np.random.randn(100, 2) / [50, 50] + [4.2105, 101.9758],
+    np.random.randn(500, 2) / [50, 50] + [3.1569, 101.7123],
     columns=['lat', 'lon'])
 
     st.map(map_data)

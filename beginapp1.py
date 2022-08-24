@@ -17,7 +17,7 @@ image = Image.open('img-what-is-diabetes.jpg')
 st.image(image, caption='What is diabetes Type')
 
 st.write(pd.DataFrame({
-    'Age Range': ['20's', '30's', '40's', '50's', '60's', '70's', '80's'],
+    'Age Range': ['20s', '30s', '40s', '50s', '60s', '70s', '80s'],
     'Frequency': [240,78, 46, 25, 4, 1]
 }))
     

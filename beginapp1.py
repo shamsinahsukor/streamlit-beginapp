@@ -12,4 +12,4 @@ st.write(pd.DataFrame({
 from PIL import Image
 image = Image.open('diabetes-type.jpg')
 
-st.image(image, caption='Diabetes Type')
+st.image(image, caption='Diabetes_Type')

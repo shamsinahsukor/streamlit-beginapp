@@ -9,17 +9,13 @@ st.write(pd.DataFrame({
     'Churn Status': [0, 0, 0, 1]
 }))
 
+
 st.header("About Diabetes")
 from PIL import Image
 image = Image.open('img-what-is-diabetes.jpg')
 
 st.image(image, caption='What is diabetes Type')
 
-df1 = pd.DataFrame(
-    np.random.randn(7, 2),
-    columns=('Age' % i for i in range(7)))
-
-st.table(df1)
 
 st.header("Diabetes Types")
 from PIL import Image

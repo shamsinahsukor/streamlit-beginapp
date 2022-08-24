@@ -9,4 +9,7 @@ st.write(pd.DataFrame({
     'Churn Status': [0, 0, 0, 1]
 }))
 
-st.video(data, format="https://www.youtube.com/watch?v=wZAjVQWbMlE", start_time=0)
+video_file = open('myvideo.mp4', 'rb')
+video_bytes = video_file.read()
+
+st.video(video_bytes)

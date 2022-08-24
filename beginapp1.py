@@ -9,4 +9,7 @@ st.write(pd.DataFrame({
     'Churn Status': [0, 0, 0, 1]
 }))
 
+from PIL import Image
+image = Image.open('Iris.jpg')
 
+st.image(image, caption='Iris')
